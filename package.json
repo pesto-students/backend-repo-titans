@@ -1,0 +1,42 @@
+{
+  "name": "ww-backend",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000W\u0000W\u0000-\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dev Saini",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.626.0",
+    "@aws-sdk/s3-request-presigner": "^3.626.0",
+    "@faker-js/faker": "^8.4.1",
+    "@sendgrid/client": "^8.1.3",
+    "@sendgrid/mail": "^8.1.3",
+    "aws-sdk": "^2.1673.0",
+    "axios": "^1.3.1",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "indian-pincodes": "^1.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.5.2",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.4",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "validator": "^13.12.0"
+  }
+}
